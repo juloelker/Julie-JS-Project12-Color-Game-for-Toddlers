@@ -10,7 +10,9 @@ Given: a kid with no reading skills
 When: the kid clicks the button repeatedly
 Then: the background color changes, cycling through 7 colors of the rainbow in order: red, pink, orange, yellow, green, blue, purple
 
-This is a first pass at writing an event-driven function to show each color to a young child in rainbow order.  
+As of 3/15/2021, this is not working yet.  It's my first pass at writing an event-driven function to show each color to a young child in rainbow order.  
+I thought of it because my granddaughter, who is 2 1/2, has just learned her colors, and she loves holding up objects and announcing the color.
+
 Future enhancements: 
 audio to tell the kid to click the button, 
 audio to tell the name of the color when it changes,

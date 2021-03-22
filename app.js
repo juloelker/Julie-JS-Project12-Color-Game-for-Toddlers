@@ -1,30 +1,19 @@
-//background colors will follow the rainbow
-
+//background colors will follow the rainbow colors in random order
 const btn = document.querySelector("#txt-btn");
 
-btn.addEventListener("click", bgColor);
+btn.addEventListener("click", bttn);
 
-const rainbowColors = {
-  Red: "255,0,0",
-  Pink: "255,105,180",
-  Orange: "255,130,39",
-  Yellow: "243,243,116",
-  Green: "0,220,0",
-  Blue: "0,108,255",
-  Purple: "148,0,211",
-};
-
-function bgColor(e) {
-  return (document.body.style.backgroundColor = `rgb(255,0,0)`);
-  e.preventDefault();
+function bttn() {
+  let rainbowColor = rgbList[Math.floor(Math.random() * rgbList.length)];
+  document.body.style.backgroundColor = `rgb(${rainbowColor})`;
 }
 
-/*rgb colors
-//red: 255, 0, 0
-//pink: 255, 105, 180
-//orange: 255, 130, 39
-//yellow: 243, 243, 116
-//green: 0, 220, 0
-//blue: 0, 108, 255
-//purple: 148, 0, 211
-*/
+let rgbList = [
+  [255, 0, 0], //red
+  [255, 105, 180], //pink
+  [255, 130, 39], //orange
+  [243, 243, 116], //yellow
+  [0, 220, 0], //green
+  [0, 0, 255], //blue
+  [148, 0, 211], //purple
+];

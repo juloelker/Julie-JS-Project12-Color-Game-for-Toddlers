@@ -1,5 +1,7 @@
 # Julie-JS-Project12-Color-Game-for-Toddlers
 
+Update, Nov/2021: not working yet, will return to this later.
+
 This is a redesign of the incredibly basic event handler project, Julie-JS-Project9-Events Simplest.  In that one, I had some ugly HTML, no real CSS, and a JS file that can change the background color to a random new color when the Submit button is clicked.  
 
 In this one, I am taking that color changer and creating a simple game that will cycle through the colors of the rainbow when the kid (who can't read yet) clicks the button.  
